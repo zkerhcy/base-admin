@@ -6,7 +6,7 @@ A seed project for background management system based on [vuejs](https://github.
 
 ## Online Demo
 
-<https://zkerhcy.github.io/base-admin>
+[https://zkerhcy.github.io/base-admin](https://zkerhcy.github.io/base-admin)
 
 ## Getting Started
 
