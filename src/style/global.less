@@ -1,0 +1,67 @@
+//Prefix
+@prefix: ba-;
+
+//color
+@primary-color       : #235ca4;
+@error-color         : #ed4014;
+@primary-text-color  : #333;
+@title-text-color    : @primary-text-color;
+@secondary-text-color: #666;
+@green-text-color    : #00a552;
+@green-line-color    : #a3bbaf;
+@msg-unread-color    : @primary-text-color;
+@msg-readed-color    : #999;
+
+// bg-color
+@common-bg-color: #f5f5f5;
+@white-bg-color : #ffffff;
+
+//font-size
+@primary-font-size  : 16px;
+@title-font-size    : @primary-font-size;
+@normal-font-size   : @primary-font-size;
+@secondary-font-size: 14px;
+@count-to-title     : 14px;
+@count-to-num       : 28px;
+
+//padding & margin
+@common-padding     : 8px;
+@common-margin      : 8px;
+@main-layout-padding: @common-padding;
+
+// common-style {
+#cs() {
+  .h-line {
+    width     : 100%;
+    height    : 1px;
+    background: #e5e5e5;
+  }
+
+  .v-line {
+    width     : 1px;
+    height    : 100%;
+    background: #e5e5e5;
+  }
+
+  .abs-center {
+    position : absolute;
+    top      : 50%;
+    left     : 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .main-layout-bg {
+    padding   : @main-layout-padding;
+    background: @white-bg-color;
+  }
+}
+
+.search-icon {
+  margin-left: 4px;
+  cursor     : pointer;
+}
+
+.search-btns {
+  display: flex !important;
+  justify-content: center;
+}
