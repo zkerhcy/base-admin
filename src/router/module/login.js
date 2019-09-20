@@ -1,7 +1,7 @@
 import config from '@conf'
 import login from '@/views/login'
 export default {
-  path: 'login',
+  path: '/login',
   name: config.LOGIN_PAGE_NAME,
   meta: {
     title: '登录',

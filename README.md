@@ -1,5 +1,7 @@
 # Base Admin
 
+[![Build Status](https://travis-ci.org/zkerhcy/base-admin.svg?branch=master)](https://travis-ci.org/zkerhcy/base-admin)
+
 A seed project for background management system based on [vuejs](https://github.com/vuejs) , can be used to quickly build enterprise background management system.
 
 ## Getting Started

@@ -13,7 +13,8 @@ Vue.use(Router)
 const createRouter = () =>
   new Router({
     routes,
-    mode: process.env.NODE_ENV === 'production' ? 'history' : 'hash'
+    // mode: process.env.NODE_ENV === 'production' ? 'history' : 'hash'
+    mode: 'hash'
   })
 
 const router = createRouter()
