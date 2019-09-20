@@ -1,6 +1,6 @@
 # Base Admin
 
-A seed project for background management system based on  [vuejs](https://github.com/vuejs) , can be used to quickly build enterprise background management system.
+A seed project for background management system based on [vuejs](https://github.com/vuejs) , can be used to quickly build enterprise background management system.
 
 ## Getting Started
 
