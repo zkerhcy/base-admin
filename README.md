@@ -4,6 +4,10 @@
 
 A seed project for background management system based on [vuejs](https://github.com/vuejs) , can be used to quickly build enterprise background management system.
 
+## Online Demo
+
+<https://zkerhcy.github.io/base-admin>
+
 ## Getting Started
 
 ```sh
