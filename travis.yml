@@ -1,9 +1,7 @@
 language: node_js
 node_js:
   - "node"
-branches:
-  only:
-  - master
+
 cache: npm
 
 script: npm run build
@@ -14,4 +12,4 @@ skip_cleanup: true
 github_token: $GITHUB_TOKEN
 local_dir: dist
 on:
-  branch: gh_pages
+  branch: master
