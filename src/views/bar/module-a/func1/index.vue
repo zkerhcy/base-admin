@@ -563,7 +563,7 @@ export default {
     // search
     doSearch () {
       this.searchLoading = true
-      TestAPI.viewList({ ...this.searchForm })
+      TestAPI.viewList(this.searchForm)
         .then(({ data }) => {
           this.searchLoading = false
           if (data.code === 1) {

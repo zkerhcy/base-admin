@@ -155,7 +155,7 @@ export default {
     doSearch () {
       this.searchLoading = true
       this.$nextTick(() => {
-        MsgAPI.viewList({ ...this.searchForm })
+        MsgAPI.viewList(this.searchForm)
           .then(({ data }) => {
             if (data.status === 'success') {
               this.dataList = data.list
