@@ -71,7 +71,11 @@
               placeholder="请选择城市"
               v-model="searchForm.city"
             >
-              <Option :key="index" :value="item.id" v-for="(item, index) in cityList">{{item.city}}</Option>
+              <Option
+                :key="index"
+                :value="item.id"
+                v-for="(item, index) in cityList"
+              >{{ item.city }}</Option>
             </Select>
           </FormItem>
         </Col>
@@ -182,7 +186,7 @@
                   :key="index"
                   :value="item.city"
                   v-for="(item, index) in cityList"
-                >{{item.city}}</Option>
+                >{{ item.city }}</Option>
               </Select>
             </FormItem>
           </Col>
@@ -198,7 +202,7 @@
           <Upload
             :before-upload="handleBeforeUpload"
             :default-file-list="defaultFileList"
-            :format="['jpg','jpeg','png']"
+            :format="['jpg', 'jpeg', 'png']"
             :max-size="1024"
             :show-upload-list="false"
             action
@@ -215,7 +219,7 @@
         </FormItem>
         <FormItem label="备注" prop="remark">
           <Input
-            :autosize="{minRows: 4,maxRows: 6}"
+            :autosize="{ minRows: 4, maxRows: 6 }"
             :disabled="viewMode"
             :maxlength="200"
             placeholder="请输入备注"
