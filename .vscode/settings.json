@@ -14,15 +14,6 @@
     "plaintext": "jade",
     "vue-html": "html"
   },
-  "eslint.autoFixOnSave": true,
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "html",
-    "css",
-    { "autoFix": true, "language": "vue" },
-    { "autoFix": true, "language": "html" }
-  ],
   "files.autoSave": "afterDelay",
   "javascript.referencesCodeLens.enabled": true,
   "typescript.referencesCodeLens.enabled": true,
