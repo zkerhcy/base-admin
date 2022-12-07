@@ -33,7 +33,7 @@
     "eslint-plugin-vue": "^5.0.0",
     "less": "^3.0.4",
     "less-loader": "^4.1.0",
-    "lint-staged": "^8.1.0",
+    "lint-staged": "^13.1.0",
     "mockjs": "^1.0.1-beta3",
     "prettier-eslint": "^8.8.2",
     "style-resources-loader": "^1.2.1",
